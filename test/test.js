@@ -1,9 +1,13 @@
-const lib = require('../src');
+const path = require('path');
+const test = require('yeoman-test');
 
 describe('TESTS', () => {
-  test('Basic test', (done) => {
-    lib.hello().then((message) => {
-      expect(message).toBe('It works!');
+  describe('Generator Tests', () => {
+    beforeAll((done) => {
+      test.run(path.join(__dirname, '../generators/app')).on('end', done);
+    });
+
+    it('should run', (done) => {
       done();
     });
   });
