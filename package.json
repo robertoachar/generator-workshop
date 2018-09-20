@@ -1,0 +1,40 @@
+{
+  "name": "@robertoachar/generator-workshop",
+  "version": "1.0.0",
+  "description": "Yeoman generator for my workshops.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/generator-workshop#readme",
+  "keywords": [
+    "node"
+  ],
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "coverage": "jest --colors --coverage",
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls",
+    "jest": "jest --colors --verbose",
+    "lint": "eslint src/**/*.js test/**/*.js",
+    "start": "node src/index.js",
+    "test": "npm run lint && npm run jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/generator-workshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/generator-workshop/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "23.3.2",
+    "coveralls": "3.0.2",
+    "eslint": "5.6.0",
+    "eslint-config-prettier": "3.0.1",
+    "eslint-plugin-prettier": "2.6.2",
+    "jest": "23.6.0",
+    "prettier": "1.14.2"
+  },
+  "license": "MIT"
+}
