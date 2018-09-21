@@ -28,7 +28,7 @@ $ npm install
 
 # Author
 
-[Roberto Achar](https://twitter.com/robertoachar)
+[<%= name %>](https://twitter.com/<%= username %>)
 
 # License
 
