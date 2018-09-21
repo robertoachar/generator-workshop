@@ -1,0 +1,28 @@
+{
+  "name": "<%= workshop %>",
+  "version": "1.0.0",
+  "description": "<%= description %>.",
+  "author": "<%= name%> <<%=email%>>",
+  "license": "CC-BY-NC-SA-4.0",
+  "homepage": "https://github.com/<%= username %>/<%= workshop %>#readme",
+  "keywords": [
+    "workshop",
+    "vue",
+    "vuepress"
+  ],
+  "scripts": {
+    "build": "vuepress build docs",
+    "lint": "eslint docs/**/*.js",
+    "start": "vuepress dev docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= username %>/<%= workshop %>.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<%= username %>/<%= workshop %>/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "private": true
+}
