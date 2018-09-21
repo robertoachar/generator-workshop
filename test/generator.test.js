@@ -20,7 +20,7 @@ describe('Generator Tests', () => {
 
   it('should create a workshop', (done) => {
     files.forEach((file) => {
-      assert.file(file);
+      assert.file(file.destination);
     });
 
     done();
