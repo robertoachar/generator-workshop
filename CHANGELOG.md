@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.2
+
+- **fix**: fix dot files
+
 ## v1.0.1
 
 ### Template Updates
