@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.0.3
+
+### Template Updates
+
+- **refactor**: update .gitignore
+
+### Generator Updates
+
+- **build**: update dependencies
+- **ci**: update node version
+- **refactor**: add template extension
+- **refactor**: update .gitignore
+
 ## v1.0.2
 
 - **fix**: fix dot files
