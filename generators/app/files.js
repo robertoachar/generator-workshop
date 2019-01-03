@@ -64,8 +64,8 @@ module.exports = [
   { template: 'gitignore.template', destination: '.gitignore' },
   { template: 'npmrc.template', destination: '.npmrc' },
   { template: 'prettierrc.template', destination: '.prettierrc' },
-  { template: 'CHANGELOG.md', destination: 'CHANGELOG.md' },
-  { template: 'LICENSE', destination: 'LICENSE' },
-  { template: 'package.json', destination: 'package.json' },
-  { template: 'README.md', destination: 'README.md' }
+  { template: 'CHANGELOG.md.template', destination: 'CHANGELOG.md' },
+  { template: 'LICENSE.template', destination: 'LICENSE' },
+  { template: 'package.json.template', destination: 'package.json' },
+  { template: 'README.md.template', destination: 'README.md' }
 ];
